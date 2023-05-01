@@ -49,69 +49,338 @@
     <div class="container">
       <nav class="d-flex justify-content-between">
         <a class="logo d-none d-sm-block" href="index.html" title="Homepage"
-          >Welcome</a
+          >WELCOME</a
         >
         <ul>
+          <li>
+            <a href="index.html" title="Homepage">HOME</a>
+          </li>
+
+          <li>
+            <a href="about.html" title="About Salmah">ABOUT</a>
+          </li>
+
           <li class="active">
-            <a href="index.html" title="Homepage">Home</a>
+            <a href="projects.html" title="Salmah's Projects">PROJECTS</a>
           </li>
 
           <li>
-            <a href="about.html" title="About Salmah">About</a>
-          </li>
-
-          <li>
-            <a href="projects.html" title="Salmah's Projects">Projects</a>
-          </li>
-
-          <li>
-            <a href="contact.html" title="Contact Salmah">Contact</a>
+            <a href="contact.html" title="Contact Salmah">CONTACT</a>
           </li>
         </ul>
       </nav>
     </div>
 
     <!-- projects section -->
-    <div class="content container">
+    <div class="project-content container">
       <div class="content-body">
-        <h1 class="mb-5">Take a look at what I've been working on!</h1>
+        <h1 class="mb-5 project-title">
+          Take a look at what I've been working on!
+        </h1>
 
         <div class="row">
-          <div class="col-md-6 mb-4">
+          <p class="text-center mt-2 mb-4">My Applications</p>
+
+          <details class="col-md-4 mb-2">
+            <summary>Vanilla Weather</summary>
+
             <img
-              src="img/weather.png"
-              class="img-fluid mb-3"
-              alt="Weather project"
+              src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/079/631/original/vanilla-weather.png?1682886013"
+              alt="Vanilla Weather project preview"
+              class="mt-3 img-fluid h-25 d-block m-auto"
             />
 
-            <h3 class="text-center m-0">Weather Project</h3>
-
-            <p class="text-center text-muted">
-              Built with HTML, CSS & JavaScript
+            <p class="mt-3">
+              This is a weather application interface. It displays basic weather
+              information for an input city, including the current temperature
+              in celsius or fahrenheit and a 5-day weather forecast.
             </p>
-          </div>
 
-          <div class="col-md-6 mb-4">
-            <img src="img/yoga.png" class="img-fluid mb-3" alt="Yoga project" />
-
-            <h3 class="text-center m-0">Yoga Project</h3>
-
-            <p class="text-center text-muted">
-              Built with HTML, CSS & JavaScript
+            <p class="text-muted">
+              Built with HTML, CSS, JavaScript, Bootstrap & uses the Axios
+              library to make API requests to retrieve weather data from
+              OpenWeather API.
             </p>
-          </div>
 
-          <div class="col-md-6 mb-4">
+            <div class="text-center">
+              <a
+                href="https://snazzy-moxie-d8110d.netlify.app/"
+                target="_blank"
+                class="btn btn-branding mt-3"
+                >View Project</a
+              >
+            </div>
+          </details>
+
+          <details class="col-md-4 mb-2">
+            <summary>Weather</summary>
+
             <img
-              src="img/yogurt.png"
-              class="img-fluid mb-3"
-              alt="Yogurt project"
+              src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/078/562/original/weather.png?1682288868"
+              alt="Weather project preview"
+              class="mt-3 img-fluid h-25 d-block m-auto"
             />
 
-            <h3 class="text-center m-0">Yogurt Project</h3>
+            <p class="mt-3">
+              This is a weather application interface. It displays the current
+              weather conditions for an input city, along with hourly and weekly
+              forecasts. It also displays the air conditions, including wind and
+              humidity.
+            </p>
 
-            <p class="text-center text-muted">Built with HTML and CSS</p>
-          </div>
+            <p class="text-muted">
+              Built with HTML, CSS, JavaScript, Bootstrap & uses the Axios
+              library to make API requests to retrieve weather data from
+              OpenWeather API.
+            </p>
+
+            <div class="text-center">
+              <a
+                href="https://superlative-pika-b1ebf1.netlify.app/"
+                target="_blank"
+                class="btn btn-branding mt-3 btn-center"
+                >View Project</a
+              >
+            </div>
+          </details>
+
+          <details class="col-md-4 mb-2">
+            <summary>Dictionary</summary>
+
+            <img
+              src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/079/632/original/dictionary.png?1682886203"
+              alt="Dictionary project preview"
+              class="mt-3 img-fluid h-25 d-block m-auto"
+            />
+
+            <p class="mt-3">
+              This is an English dictionary application interface. Users can
+              search for any word in the search engine and receive accurate
+              meanings, examples, pronunciation and synonyms of that typed word.
+            </p>
+
+            <p class="text-muted">
+              Built with HTML, CSS, JavaScript & uses the Axios library to make
+              API requests to retrieve definitions from Dictionary API.
+            </p>
+
+            <div class="text-center">
+              <a
+                href="https://scintillating-alfajores-8cc8f6.netlify.app/"
+                target="_blank"
+                class="btn btn-branding mt-3 btn-center"
+                >View Project</a
+              >
+            </div>
+          </details>
+
+          <details class="col-md-4 mb-2">
+            <summary>Calculator</summary>
+
+            <img
+              src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/079/633/original/calculator.png?1682886694"
+              alt="Calculator project preview"
+              class="mt-3 img-fluid h-25 d-block m-auto"
+            />
+
+            <p class="mt-3">
+              This is a calculator application interface. It has a display area
+              where the entered numbers and calculation results are shown, and
+              several buttons that perform arithmetic operations such as
+              addition, subtraction, multiplication, and division.
+            </p>
+
+            <p class="text-muted">Built with HTML, CSS & JavaScript.</p>
+
+            <div class="text-center">
+              <a
+                href="https://wonderful-paprenjak-2a0a99.netlify.app/"
+                target="_blank"
+                class="btn btn-branding mt-3 btn-center"
+                >View Project</a
+              >
+            </div>
+          </details>
+
+          <details class="col-md-4 mb-2">
+            <summary>Translator</summary>
+
+            <img
+              src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/079/634/original/translator.png?1682886974"
+              alt="Translator project preview"
+              class="mt-3 img-fluid h-25 d-block m-auto"
+            />
+
+            <p class="mt-3">
+              This is a language translator application interface. Users can
+              translate any text into multiple languages, copy translated text,
+              and convert text to speech.
+            </p>
+
+            <p class="text-muted">
+              Built with HTML, CSS, JavaScript & uses the Axios library to make
+              API requests to retrieve language translations from MyMemory API.
+            </p>
+
+            <div class="text-center">
+              <a
+                href="https://fancy-chaja-8ec442.netlify.app/"
+                target="_blank"
+                class="btn btn-branding mt-3 btn-center"
+                >View Project</a
+              >
+            </div>
+          </details>
+
+          <details class="col-md-4 mb-2">
+            <summary>Currency Exchange</summary>
+
+            <img
+              src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/079/635/original/currency-exchange.png?1682887252"
+              alt="Currency Exchange project preview"
+              class="mt-3 img-fluid h-25 d-block m-auto"
+            />
+
+            <p class="mt-3">
+              This is a currency exchange application interface. It allows users
+              to convert one currency to another by providing the exchange rate
+              between them.
+            </p>
+
+            <p class="text-muted">
+              Built with HTML, CSS, JavaScript & uses the Axios library to make
+              API requests to retrieve country flags & exchange rates from Flags
+              Api & Exchange-Rate API.
+            </p>
+
+            <div class="text-center">
+              <a
+                href="https://frolicking-croissant-4e6e57.netlify.app/"
+                target="_blank"
+                class="btn btn-branding mt-3 btn-center"
+                >View Project</a
+              >
+            </div>
+          </details>
+        </div>
+
+        <div class="row">
+          <p class="text-center mt-5 mb-4">My Game Applications</p>
+
+          <details class="col-md-4 mb-2">
+            <summary>Memory Card</summary>
+
+            <img
+              src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/078/563/original/game.jpg?1682288905"
+              alt="Memory Card project preview"
+              class="mt-3 img-fluid h-25 d-block m-auto"
+            />
+
+            <p class="mt-3">
+              This is a game application interface. It consists of cards with a
+              question mark on one side and an image of a gem on the other. The
+              goal of the game is to find the matching pairs of gems by flipping
+              over two cards at a time.
+            </p>
+
+            <p class="text-muted">Built with HTML, CSS & JavaScript.</p>
+
+            <div class="text-center">
+              <a
+                href="https://taupe-mandazi-321855.netlify.app/"
+                target="_blank"
+                class="btn btn-branding mt-3 btn-center"
+                >View Project</a
+              >
+            </div>
+          </details>
+
+          <details class="col-md-4 mb-2">
+            <summary>Sudoku</summary>
+
+            <img
+              src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/079/637/original/sudoku.png?1682887651"
+              alt="Sudoku project preview"
+              class="mt-3 img-fluid h-25 d-block m-auto"
+            />
+
+            <p class="mt-3">
+              This is a game application interface. It consists of a 9×9 grid
+              with numbers appearing in some of the squares. The goal of the
+              puzzle is to fill the remaining squares, using the numbers 1–9
+              exactly once in each row, column, and the nine 3×3 subgrids.
+            </p>
+
+            <p class="text-muted">Built with HTML, CSS & JavaScript.</p>
+
+            <div class="text-center">
+              <a
+                href="https://tubular-dragon-e23626.netlify.app/"
+                target="_blank"
+                class="btn btn-branding mt-3 btn-center"
+                >View Project</a
+              >
+            </div>
+          </details>
+
+          <details class="col-md-4 mb-2">
+            <summary>Tic Tac Toe</summary>
+
+            <img
+              src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/079/638/original/tic_tac_toe.png?1682887918"
+              alt="Tic Tac Toe project preview"
+              class="mt-3 img-fluid h-25 d-block m-auto"
+            />
+
+            <p class="mt-3">
+              This is a application interface for a two player game in which one
+              player draws X’s and another player draws O’s. The players
+              alternatively attempt to be the first to fill a row with three X’s
+              or O’s.
+            </p>
+
+            <p class="text-muted">Built with HTML, CSS & JavaScript.</p>
+
+            <div class="text-center">
+              <a
+                href="https://neon-faloodeh-5dc52b.netlify.app/"
+                target="_blank"
+                class="btn btn-branding mt-3 btn-center"
+                >View Project</a
+              >
+            </div>
+          </details>
+        </div>
+
+        <div class="row">
+          <p class="text-center mt-5 mb-4">My Websites</p>
+
+          <details class="col-md-4 mb-2">
+            <summary>Restaurant</summary>
+
+            <img
+              src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/078/564/original/restaurant.jpg?1682288951"
+              alt="Restaurant project preview"
+              class="mt-3 img-fluid h-25 d-block m-auto"
+            />
+
+            <p class="mt-3">
+              This is a website for 'The Cheesecake Factory'. User's can explore
+              the restaurant's history and menu options, read reviews and
+              reserve tables.
+            </p>
+
+            <p class="text-muted">Built with HTML, CSS & Bootstrap.</p>
+
+            <div class="text-center">
+              <a
+                href="https://fastidious-starburst-d83939.netlify.app/"
+                target="_blank"
+                class="btn btn-branding mt-3 btn-center"
+                >View Project</a
+              >
+            </div>
+          </details>
         </div>
       </div>
     </div>
@@ -120,8 +389,8 @@
     <footer class="container">
       <div class="contact-box d-flex justify-content-between mb-5">
         <div>
-          <h3>Work Inquiry</h3>
-          <p class="text-muted">Let's work together</p>
+          <h3>WORK INQUIRY</h3>
+          <p class="text-muted ms-3">Let's work together</p>
         </div>
 
         <div>
@@ -129,50 +398,36 @@
             href="contact.html"
             class="btn btn-branding d-none d-sm-flex mt-3"
             title="Contact Me"
-            >Contact Me</a
+            >CONTACT ME</a
           >
         </div>
       </div>
-      <div class="d-flex justify-content-center mb-5">
-        <a href="mailto:salmah@gmail.com" class="email-link" title="Email Me"
-          >salmah.codes@gmail.com</a
-        >
-      </div>
+
       <div class="social-links d-flex justify-content-center mb-5">
         <a
-          href="https://www.instagram.com/salmah.codes"
+          href="mailto:salmahabdirahman@gmail.com"
           target="_blank"
-          title="Instagram profile"
+          title="Email Salmah"
         >
-          <i class="fab fa-instagram"></i>
+          <i class="fa-regular fa-envelope"></i>
         </a>
 
         <a
-          href="https://www.github.com/salmah.codes"
+          href="https://github.com/Salmah1/Portfolio-homework.git"
           target="_blank"
-          title="Github profile"
+          title="Salmah's Github"
         >
           <i class="fab fa-github"></i>
         </a>
 
         <a
-          href="https://www.twitter.com/salmah.codes"
+          href="https://www.linkedin.com/in/salmah-abdullahi2023/"
           target="_blank"
-          title="Twitter profile"
+          title="Salmah's Linkedin"
         >
-          <i class="fab fa-twitter"></i>
+          <i class="fab fa-linkedin"></i>
         </a>
       </div>
-
-      <p class="text-center mt-5">
-        Open-source code on
-        <a
-          href="https://github.com/Salmah1/Portfolio-homework.git"
-          target="_blank"
-          >Github</a
-        >
-        .
-      </p>
     </footer>
   </body>
 </html>
