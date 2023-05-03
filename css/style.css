@@ -150,29 +150,18 @@ nav li.active a {
   border-bottom: 1px var(--branding-color) solid;
 }
 
-.contact-link {
+.contact-container .social-links a {
+  margin: 10px auto;
   color: var(--branding-color);
-  font-size: 50px;
-}
-
-.contact-link a {
+  background: var(--secondary-color);
+  padding: 25px 2px;
+  font-size: 40px;
+  border-radius: 50%;
   transition: all 100ms ease-in-out;
 }
 
-.contact-link:hover {
+.contact-container .social-links a:hover {
   color: var(--tertiary-color);
-}
-
-.contact-link-box {
-  background: var(--secondary-color);
-  width: 10%;
-  padding: 20px;
-  margin: 0 auto;
-  display: block;
-  border-radius: 50%;
-}
-
-.contact-link-box:hover {
   background: var(--branding-color);
 }
 
@@ -233,17 +222,5 @@ footer .social-links a:hover {
 
   .project-title {
     text-align: center;
-  }
-}
-
-@media (max-width: 1300px) {
-  .contact-link-box {
-    width: 20%;
-  }
-}
-
-@media (max-width: 600px) {
-  .contact-link-box {
-    width: 50%;
   }
 }
