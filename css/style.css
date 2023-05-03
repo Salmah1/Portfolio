@@ -63,16 +63,6 @@ p {
   padding: 60px 20px;
 }
 
-.about-content {
-  padding: 60px 30px;
-}
-
-.about-img {
-  margin-top: 60px;
-  width: 520px;
-  height: 300px;
-}
-
 .content-body h1 {
   font-size: 64px;
   line-height: 80px;
@@ -156,6 +146,10 @@ nav li.active a {
   color: var(--branding-color);
 }
 
+.nav-line {
+  border-bottom: 1px var(--branding-color) solid;
+}
+
 .contact-link {
   color: var(--branding-color);
   font-size: 50px;
@@ -235,11 +229,6 @@ footer .social-links a:hover {
 
   .content {
     text-align: center;
-  }
-
-  .about-img {
-    margin: 0 auto;
-    display: block;
   }
 
   .project-title {
